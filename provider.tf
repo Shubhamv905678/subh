@@ -3,7 +3,7 @@ terraform {
     organization = "EY_546"
 
     workspaces {
-      name = "IAM_DEMO"
+      name = "IAM_DEMO1"
     }
   }
   
@@ -14,9 +14,9 @@ terraform {
     }
   }
 }
-
 provider "aws" {
   # Configuration options
   region = "us-east-1"
 
 }
+
